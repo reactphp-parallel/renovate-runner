@@ -31,3 +31,4 @@ jobs:
         uses: WyriHaximus/github-action-renovatebot@683bbe2fc72410414e15c8d46e16c908cef37b24 # v0.3.2
         with:
           renovateAppToken: ${{ steps.app-token.outputs.token }}
+          logLevel: debug
